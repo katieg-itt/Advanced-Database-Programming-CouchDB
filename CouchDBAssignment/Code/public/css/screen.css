@@ -1,0 +1,48 @@
+#shopping_list{
+	margin-top: 30px;
+}
+#shopping_list .list-title{
+	padding: 40px 10px 10px 10px;
+}
+#shopping_list .list-body{
+	padding: 20px 10px 10px 10px;
+}
+#shopping_list .list-body li a{
+	display: inline-block;
+	text-align: right;
+	float: right;
+}
+#shopping_list .list-body li span{
+	display: inline-block;
+	width: 30%;
+	float: right;
+}
+#shopping_list .list-body li{
+	border-bottom: 1px solid #00796b;
+	font-size: 120%;
+	padding: 10px;
+}
+#shopping_list .list-body li:last-child{
+	border-bottom: none;
+}
+#shopping_list .list-title {
+	position:relative;
+}
+#shopping_list .list-title a.btn-floating {
+	position:absolute;
+	right:-25px;
+	bottom:-25px;
+}
+.list-nav {
+	margin-bottom:0;
+	padding:10px;
+}
+.list-nav .row {
+	margin-bottom:0;
+}
+.list-nav select {
+	height:2.7rem;
+}
+#deletelist {
+	margin:5px auto;
+}

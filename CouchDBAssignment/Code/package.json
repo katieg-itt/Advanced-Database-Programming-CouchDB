@@ -1,0 +1,17 @@
+{
+  "name": "shopping_list",
+  "version": "1.0.0",
+  "description": "Shopping list project for Advanced Database Programming",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Katie Griffiths",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.1",
+    "fs": "0.0.1-security",
+    "multer": "^1.3.0"
+  }
+}
